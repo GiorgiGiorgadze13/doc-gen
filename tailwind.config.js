@@ -4,6 +4,9 @@ module.exports = {
 
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["inter", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         "header-bg": "var(--header-bg)",
@@ -17,6 +20,8 @@ module.exports = {
         "hero-text-primary": "var(--hero-text-primary)",
         "hero-text-secondary": "var(--hero-text-secondary)",
         "hero-image-shadow-color": "var(--hero-image-shadow-color)",
+        "logo-bg": "var(--logo-bg)",
+        "drop-down-bg": "var(--drop-down-bg)",
       },
     },
   },

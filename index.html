@@ -5,14 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document Generate</title>
   <link rel="stylesheet" href="css/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
   <script src="script/main.js" defer></script>
  </head>
 <body>
-  <header class="bg-red-500">
+  <header class="bg-red-400">
     <button class="item-button">
       Click
     </button>
     <a href="document.html">Go to document</a>
   </header>
+  <main class="w-full min-h-screen default-container">
+    <div class="flex justify-between items-start">
+      <section class="max-w-[784px]  flex flex-col gap-5 w-full">
+        <h2 class="text-[50px] leading-[151%] font-semibold text-text-primary-color">
+          დოკუმენტების <h3 class="text-[50px] text-start text-hero-text-primary font-semibold">სამუშაო პროცესის
+            ავტომატიზაცია</h3>
+        </h2>
+  
+        <p class="text-[15px] max-w-[587px] w-full  text-hero-text-secondary">
+          პროფესიონალური PDF-ების, კონტრაქტებისა და ანგარიშების შექმნა წამებში AI ტექნოლოგიის დახმარებით. მინიმალური
+          ძალისხმევა,
+          მაქსიმალური შედეგი.
+        </p>
+  
+        <div class="flex items-center gap-3 my-5">
+          <button class="px-8 py-3 rounded-xl font-bold bg-item-button-bg text-text-primary-color">
+            ახლავე დაწყება
+          </button>
+          <button class="px-8 py-3 rounded-xl font-bold bg-hero-demo-btn-bg text-text-primary-color">
+            Demo-ს ნახვა
+          </button>
+        </div>
+      </section>
+      <section class="shadow-2xl shadow-hero-image-shadow-color max-w-[600px] w-full overflow-hidden relative rounded-xl">
+        <img src="assets/image/hero-image.png" alt="" class=" w-full object-cover">
+      </section>
+    </div>
+  </main>
 </body>
 </html>
